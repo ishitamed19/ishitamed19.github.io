@@ -225,11 +225,9 @@ body {
   font-size: 1em;
   line-height: 1.5;
  background: linear-gradient(226deg, #2a2b2a, #03006e, #280d79, #005f53, #840898, #003e70);
-background-size: 1200% 1200%;
-
--webkit-animation: Gradient 30s ease infinite;
-animation: Gradient 30s ease infinite;
-}
+ background-size: 1200% 1200%;
+ -webkit-animation: Gradient 30s ease infinite;
+ animation: Gradient 30s ease infinite;
 @-webkit-keyframes Gradient {
     0%{background-position:66% 0%}
     50%{background-position:35% 100%}
@@ -240,6 +238,8 @@ animation: Gradient 30s ease infinite;
     50%{background-position:35% 100%}
     100%{background-position:66% 0%}
 }
+}
+
 
 h1,
 h2,
