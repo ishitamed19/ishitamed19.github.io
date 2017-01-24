@@ -665,14 +665,16 @@ header nav ul li a.bordered {
 }
 
 .wrap{
-	max-width: 600px;
+	max-width: 68em;
 	margin:150px auto;
 }
 
 .type-wrap{
-	margin:10px auto;
+  max-width: 68em;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 	padding:20px;
-	background:#f0f0f0;
 	border-radius:5px;
 	border:#CCC 1px solid;
 }
