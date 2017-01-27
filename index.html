@@ -8,6 +8,7 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link rel="stylesheet" href="css/vendor/fluidbox.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="blockrain.css">
 
     
 
@@ -155,6 +156,7 @@ animation: Gradient 30s ease infinite;
 					© 2017 - Hasta Lavista 🖖
 				</p>
 			</div>
+			<div class="game" style="height:500px;"></div>
 		</section>
 
 	</div>
@@ -207,6 +209,13 @@ animation: Gradient 30s ease infinite;
 	  ga('create', 'YOUR_GOOGLE_ANALYTICS_ID', 'auto');
 	  ga('send', 'pageview');
 
+	</script>
+	
+	<script src="blockrain.jquery.js"></script>
+	<script src="blockrain.jquery.min.js"></script>
+	<script src="blockrain.themes.jquery.js"></script>
+	<script>
+    		$('.game').blockrain({ autoplay: true, autoplayRestart: true, blockWidth: 20, theme: 'modern' });
 	</script>
 
 </body>
