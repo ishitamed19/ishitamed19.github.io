@@ -6,8 +6,8 @@ gems:
   - jekyll-redirect-from
 
 name: Ishita Mediratta
-url: ishita.io
-enforce_ssl: ishita.io
+url: https://ishita.io
+enforce_ssl: https://ishita.io
 description: Ishita
 
 collections:
